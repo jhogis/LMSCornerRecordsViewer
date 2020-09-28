@@ -1,0 +1,35 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:3001",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "FORGE_CLIENT_SECRET": "iszy9cSGMsqSUOea",
+        "ASPNETCORE_URLS": "http://localhost:3000/api/forge/callback/oauth",
+        "FORGE_CLIENT_ID": "d9GlmJYy6oXkLDgKHD1Oik8gkmGHAsmA",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "FORGE_WEBHOOK_URL": "https://amcsurvey1.azurewebsites.net"
+      }
+    },
+    "CornerRecordsLMS_Alpha": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "FORGE_CLIENT_SECRET": "X189db3561d9b40b",
+        "ASPNETCORE_URLS": "http://localhost:3001",
+        "FORGE_CLIENT_ID": "LAtCtWqEXCl4nyBJ6ebOVw8yDw6Jd3QO",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "FORGE_WEBHOOK_URL": "https://amcsurvey1.azurewebsites.net"
+      },
+      "applicationUrl": "http://localhost:3001"
+    }
+  }
+}
